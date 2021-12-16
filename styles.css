@@ -15,8 +15,18 @@ h1 {
 }
 p{
   line-height: 2;
-  font-size:1.5rem;
+  font-size:1.1rem;
 
+}
+
+.navbar-nav a {
+  font-family: 'Merriweather', serif;
+  color: black;
+  font-size: 1.1rem;
+
+}
+.navbar-custom {
+    background-color: #D4ECDD;
 }
 
 h2{
@@ -118,11 +128,6 @@ a:hover{
 :root {
   --animate-duration: 800ms;
   --animate-delay: 0.9s;
-}
-
-.navbar
-{
-  font-size: 25px !important;
 }
 
 .btn {
