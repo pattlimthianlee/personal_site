@@ -113,8 +113,14 @@ a:hover{
   float: right;
   border-radius: 50%;
   width: 20%
+}
 
+.bg-custom{
+  background-color: #30E3CA;
+}
 
+.bg-custom2{
+  background-color: #11999E;
 }
 
 .skill-row{
