@@ -46,6 +46,18 @@ a{
   text-decoration: none;
 }
 
+.navbar-nav a {
+  font-family: 'Merriweather', serif;
+  color: black;
+  font-size: 1.1rem;
+
+
+}
+.navbar-custom {
+    background-color: #D4ECDD;
+}
+
+
 a:hover{
   color: #FABB51;
 }
