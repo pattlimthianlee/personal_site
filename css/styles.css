@@ -126,10 +126,37 @@ a:hover{
   width: auto;
 }
 
-.mountain-pic{
-  width: 50%;
+.space-pic{
+  width: 300px;
   height: auto;
+  margin-top: 30px;
+  transition:.3s;
 }
+
+.space-pic:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
 
 .skill-img{
   margin-right: 30px;
