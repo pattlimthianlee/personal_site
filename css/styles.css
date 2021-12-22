@@ -256,7 +256,18 @@ a:hover{
 
 }
 
+.left{
+  text-align: left;
 
+}
+
+#project-heading{
+  color: #1A374D;
+}
+
+#project-heading:hover{
+  color: #406882;
+}
 
 /* h1,h2{
   animation-duration: 3s;
