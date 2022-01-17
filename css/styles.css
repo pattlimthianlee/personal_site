@@ -75,11 +75,9 @@ a{
   font-family: 'Merriweather', serif;
   color: black;
   font-size: 1.1rem;
-
-
 }
 .navbar-custom {
-    background-color: #D4ECDD;
+    background-color: #66BFBF;
 }
 
 
@@ -124,6 +122,13 @@ a:hover{
   border-radius: 50%;
   height: 200px;
   width: auto;
+}
+.nav-icon{
+  transition:.3s;
+}
+.nav-icon:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .space-pic{
