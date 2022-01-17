@@ -269,6 +269,21 @@ a:hover{
   color: #406882;
 }
 
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* .carousel {
+  width:640px;
+  height:360px;
+} */
+
 /* h1,h2{
   animation-duration: 3s;
   animation-name: slidein;
