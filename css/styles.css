@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
   color: #40514E;
   margin: 0;
@@ -29,7 +37,7 @@ p{
 }
 
 h2{
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   color: #66BFBF;
   font-size: 2.5rem;
   font-weight: normal;
@@ -267,7 +275,10 @@ a:hover{
 }
 
 #project-heading{
+  margin: 100px;
   color: #1A374D;
+  font-size: 3rem;
+
 }
 
 #project-heading:hover{
@@ -285,19 +296,14 @@ a:hover{
   background-size: cover;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 a{
     position: relative;
     display: inline-block;
     padding: 25px 30px;
     margin: 40px 0;
-    color: #03e9f4;
+    color: #1DB9C3;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
