@@ -25,7 +25,7 @@ h1 {
 }
 
 h1:hover{
-  color: #0F2C67;
+  color: #072227;
   font-size: 5.7rem;
   transform:scale(1.1);
 
@@ -47,14 +47,14 @@ h2{
 }
 
 h2:hover{
-  color: #064635;
+  color: #072227;
   font-size: 2.6rem;
   transform:scale(1.2);
 
 }
 
 h3:hover{
-  color: #064635;
+  color: #072227;
   transform:scale(1.2);
 
 }
@@ -186,13 +186,16 @@ a:hover{
 }
 
 .bg-custom{
-  background-color: #30E3CA;
+  background-color: #9D5353;
 }
 
 .bg-custom2{
-  background-color: #11999E;
+  background-color: #886F6F;
 }
 
+.bg-custom3{
+  background-color: #694E4E;
+}
 .skill-row{
   width: 50%;
   margin: 100px auto 100px auto;
