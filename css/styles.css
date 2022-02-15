@@ -8,11 +8,12 @@
 
 body {
   color: #40514E;
-  margin: 0;
+  margin: 0px;
   text-align: center;
   font-family: 'Merriweather' , serif;
   background-color: #E4F9F5;
 }
+
 
 h1 {
   margin: 50px auto 0 auto;
@@ -30,9 +31,10 @@ h1:hover{
   transform:scale(1.1);
 
 }
-p{
+p, li{
   line-height: 2;
-  font-size: 1.1rem;
+  font-size: 1rem;
+
 
 }
 
@@ -278,14 +280,17 @@ a:hover{
 }
 
 #project-heading{
-  margin: 100px;
+  margin-top: 50px;
   color: #1A374D;
-  font-size: 3rem;
+  font-size: 2.8rem;
+
 
 }
 
+
 #project-heading:hover{
   color: #406882;
+
 }
 
 
@@ -407,6 +412,9 @@ a span:nth-child(4){
         bottom: 100%;
     }
 }
+
+
+
 /* .carousel {
   width:640px;
   height:360px;
