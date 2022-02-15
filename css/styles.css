@@ -11,7 +11,7 @@ body {
   margin: 0px;
   text-align: center;
   font-family: 'Merriweather' , serif;
-  background-color: #E4F9F5;
+background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
 }
 
 
@@ -87,7 +87,9 @@ a{
   font-size: 1.1rem;
 }
 .navbar-custom {
-    background-color: #92A9BD;
+  background-color: #E3B7A0;
+
+
 }
 
 
@@ -100,7 +102,6 @@ a:hover{
   margin: auto;
 }
 .top-container{
-  background-color: #E4F9F5;
   position: relative;
   padding-top: 120px;
 }
@@ -111,7 +112,7 @@ a:hover{
 
 
 .bottom-container{
-  background-color: #92A9BD;
+  background-color: #E3B7A0;
   padding: 50px 0 20px
 }
 
@@ -413,7 +414,9 @@ a span:nth-child(4){
     }
 }
 
-
+.pyramid{
+  margin-bottom: 100px;
+}
 
 /* .carousel {
   width:640px;
